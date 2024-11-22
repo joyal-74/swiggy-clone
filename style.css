@@ -435,12 +435,13 @@ header{
 }
 .part-1{
     display: flex;
-    justify-content: center;    
+    justify-content: center; 
+    margin: 0 220px;   
     padding-top: 40px;
     gap: 50px;
 }
 .part-1 .logo-div{
-    margin-right: 120px;
+    margin-right: 60px;
 }
 .part-1 .logo-div img{
     width: 160px;
@@ -448,14 +449,14 @@ header{
 }
 
 .part-1 .logo-div h1 {
-    font-size: 16px;
+    font-size: 15px;
     color: rgba(2, 6, 12, 0.6);
 }
 .text-lists {
     width: 120px;
 }
 .text-lists li {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     font-family: 'Gilroy';
     font-weight: 600;
     color: rgba(2, 6, 12, 0.6);
@@ -508,7 +509,7 @@ header{
 .footer-text img {
     width: 30px;
     height: 30px;
-    padding-left: 5px;
+    padding: 0 5px;
 }
 .footer-text{
     display: flex;
@@ -542,4 +543,10 @@ header{
     font-size: 24px;
     font-family: 'Gilroy-ExtraBold';
     color: rgba(2, 6, 12, 0.75);
+}
+
+.part-2 hr {
+    width: 70%;
+    margin: 0 auto;
+    border-top: 1px solid black;
 }
